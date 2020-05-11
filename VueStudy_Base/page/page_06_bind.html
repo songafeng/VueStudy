@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="http://how2j.cn/study/vue.min.js"></script>
+
+<div id="div1">
+    <a v-bind:href="page">http://12306.com</a>
+</div>
+
+<script>
+
+    new Vue({
+        el: '#div1',
+        data:{
+            page:'http://12306.com'
+        }
+    })
+
+</script>
+</body>
+</html>
